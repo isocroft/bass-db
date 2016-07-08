@@ -1,0 +1,46 @@
+{
+  "name": "bass-db",
+  "description": "A simple query builder for NodeJS applications using a MySQL backend",
+  "version": "0.0.1",
+  "author": {
+    "name": "Ifeora Okechukwu",
+    "email": "isocroft@gmail.com"
+  },
+  "contributors": [
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/isocroft/bass-db"
+  },
+  "homepage": "http://blog.coolandcodes.com",
+  "keywords": [
+    "mysql",
+    "builder", 
+	"handlers"
+  ],
+  "dependencies": {
+     "mysql":"*",
+	 "q":"*"
+  },
+  "devDependencies": {
+     "mocha":"*"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "files": [
+    "LICENSE",
+    "readme.md",
+    "index.js",
+    "handlers/", 
+	"builder/"
+  ],
+  "scripts": {
+    "test": ""
+  },
+  "readmeFilename": "readme.md",
+  "bugs": {
+    "url": "https://github.com/isocroft/bass-db/issues"
+  }
+}

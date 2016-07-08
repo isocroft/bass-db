@@ -1,0 +1,22 @@
+# archives
+ *.zip
+ *.tar.gz
+
+# executables  
+ *.exe
+ *.obj
+
+# OS genrated files
+ ._*
+ .cache
+ .DS_Store
+ *[Tt]humbs.db
+ *.Trashes
+ *~
+ *.log 
+
+# npm specifics
+ .npmignore
+ 
+# client-side tasks folders
+  /node_modules/**/*
